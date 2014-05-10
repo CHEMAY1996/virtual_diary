@@ -1,0 +1,34 @@
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\bin\Debug\S_O_T.exe
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\bin\Debug\S_O_T.pdb
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\bin\Debug\S_O_T.xml
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.Resources.resources
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.exe
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.xml
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.pdb
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.FormSplash.resources
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.Formtimetable.resources
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.Alarms.resources
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.Enter_New_Alarms.resources
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.Enter_New_timer.resources
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.Calender.resources
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.Enter  new subject.resources
+C:\Users\avinash.chemay\documents\visual studio 2010\Projects\S_O_T\S_O_T\obj\x86\Debug\S_O_T.Enter_new_event.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.exe
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.xml
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.pdb
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Alarms.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Calender.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Enter_New_Alarms.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Enter_new_event.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Enter_New_timer.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.FormSplash.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Resources.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\bin\Debug\S_O_T.exe
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\bin\Debug\S_O_T.pdb
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\bin\Debug\S_O_T.xml
