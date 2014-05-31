@@ -30,6 +30,7 @@ Partial Class FormSplash
         Me.btnclose = New System.Windows.Forms.Button()
         Me.btnhomework = New System.Windows.Forms.Button()
         Me.btncal = New System.Windows.Forms.Button()
+        Me.lblheading = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblWelcome
@@ -101,6 +102,15 @@ Partial Class FormSplash
         Me.btncal.Text = "Your Calender "
         Me.btncal.UseVisualStyleBackColor = True
         '
+        'lblheading
+        '
+        Me.lblheading.AutoSize = True
+        Me.lblheading.Font = New System.Drawing.Font("Impact", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblheading.Location = New System.Drawing.Point(430, 284)
+        Me.lblheading.Name = "lblheading"
+        Me.lblheading.Size = New System.Drawing.Size(0, 39)
+        Me.lblheading.TabIndex = 7
+        '
         'FormSplash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -108,6 +118,7 @@ Partial Class FormSplash
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1050, 606)
+        Me.Controls.Add(Me.lblheading)
         Me.Controls.Add(Me.btncal)
         Me.Controls.Add(Me.btnhomework)
         Me.Controls.Add(Me.btnclose)
@@ -118,6 +129,7 @@ Partial Class FormSplash
         Me.Name = "FormSplash"
         Me.Text = "Virtual diary "
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents lblWelcome As System.Windows.Forms.Label
@@ -127,5 +139,6 @@ Partial Class FormSplash
     Friend WithEvents btnclose As System.Windows.Forms.Button
     Friend WithEvents btnhomework As System.Windows.Forms.Button
     Friend WithEvents btncal As System.Windows.Forms.Button
+    Friend WithEvents lblheading As System.Windows.Forms.Label
 
 End Class

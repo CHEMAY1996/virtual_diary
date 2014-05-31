@@ -6,7 +6,7 @@
 
     Private Sub btntimetable_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btntimetable.Click
         Me.Hide()
-        ' Formtimetable.Show()
+        Timetable.Show()
     End Sub
 
     Private Sub btnalarms_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnalarms.Click
@@ -17,5 +17,10 @@
     Private Sub btncal_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btncal.Click
         Me.Hide()
         Calender.Show()
+    End Sub
+
+    Private Sub btnhomework_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnhomework.Click
+        Me.Hide()
+        homeworkhome.Show()
     End Sub
 End Class

@@ -32,6 +32,11 @@ Partial Class Alarms
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.btntimer = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnBack
@@ -78,7 +83,7 @@ Partial Class Alarms
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Courier New", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(84, 146)
+        Me.Label1.Location = New System.Drawing.Point(84, 153)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(152, 27)
         Me.Label1.TabIndex = 4
@@ -88,7 +93,7 @@ Partial Class Alarms
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Courier New", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(84, 184)
+        Me.Label2.Location = New System.Drawing.Point(84, 202)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(152, 27)
         Me.Label2.TabIndex = 5
@@ -98,7 +103,7 @@ Partial Class Alarms
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Courier New", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(84, 221)
+        Me.Label3.Location = New System.Drawing.Point(84, 263)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(152, 27)
         Me.Label3.TabIndex = 6
@@ -108,7 +113,7 @@ Partial Class Alarms
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Courier New", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(84, 259)
+        Me.Label4.Location = New System.Drawing.Point(84, 326)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(152, 27)
         Me.Label4.TabIndex = 7
@@ -124,12 +129,52 @@ Partial Class Alarms
         Me.btntimer.Text = " Enter new Timer "
         Me.btntimer.UseVisualStyleBackColor = True
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(243, 110)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(258, 20)
+        Me.TextBox1.TabIndex = 9
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(243, 263)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(258, 20)
+        Me.TextBox2.TabIndex = 10
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(243, 153)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(258, 20)
+        Me.TextBox3.TabIndex = 11
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(243, 202)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(258, 20)
+        Me.TextBox4.TabIndex = 12
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(243, 332)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(258, 20)
+        Me.TextBox5.TabIndex = 13
+        '
         'Alarms
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(756, 513)
+        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.btntimer)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -154,4 +199,9 @@ Partial Class Alarms
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents btntimer As System.Windows.Forms.Button
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
 End Class

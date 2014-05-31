@@ -27,6 +27,13 @@ Partial Class Enter_New_timer
         Me.lblenter = New System.Windows.Forms.Label()
         Me.btnBack = New System.Windows.Forms.Button()
         Me.btnconfirm = New System.Windows.Forms.Button()
+        Me.txtname = New System.Windows.Forms.TextBox()
+        Me.nudminutes = New System.Windows.Forms.NumericUpDown()
+        Me.alarm = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        CType(Me.nudminutes, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lbltimer
@@ -68,18 +75,77 @@ Partial Class Enter_New_timer
         Me.btnconfirm.Text = "Confirm"
         Me.btnconfirm.UseVisualStyleBackColor = True
         '
+        'txtname
+        '
+        Me.txtname.Location = New System.Drawing.Point(196, 148)
+        Me.txtname.Name = "txtname"
+        Me.txtname.Size = New System.Drawing.Size(309, 20)
+        Me.txtname.TabIndex = 4
+        '
+        'nudminutes
+        '
+        Me.nudminutes.Location = New System.Drawing.Point(196, 221)
+        Me.nudminutes.Name = "nudminutes"
+        Me.nudminutes.Size = New System.Drawing.Size(120, 20)
+        Me.nudminutes.TabIndex = 5
+        '
+        'alarm
+        '
+        Me.alarm.FormattingEnabled = True
+        Me.alarm.Location = New System.Drawing.Point(196, 296)
+        Me.alarm.Name = "alarm"
+        Me.alarm.Size = New System.Drawing.Size(121, 21)
+        Me.alarm.TabIndex = 6
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Courier New", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(12, 296)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(140, 23)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Alarm name"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Courier New", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(12, 218)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(101, 23)
+        Me.Label2.TabIndex = 8
+        Me.Label2.Text = "Minutes"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Courier New", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(12, 148)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(153, 23)
+        Me.Label3.TabIndex = 9
+        Me.Label3.Text = "Timer name "
+        '
         'Enter_New_timer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(764, 486)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.alarm)
+        Me.Controls.Add(Me.nudminutes)
+        Me.Controls.Add(Me.txtname)
         Me.Controls.Add(Me.btnconfirm)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.lblenter)
         Me.Controls.Add(Me.lbltimer)
         Me.Name = "Enter_New_timer"
         Me.Text = "Enter_New_timer"
+        CType(Me.nudminutes, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -88,4 +154,10 @@ Partial Class Enter_New_timer
     Friend WithEvents lblenter As System.Windows.Forms.Label
     Friend WithEvents btnBack As System.Windows.Forms.Button
     Friend WithEvents btnconfirm As System.Windows.Forms.Button
+    Friend WithEvents txtname As System.Windows.Forms.TextBox
+    Friend WithEvents nudminutes As System.Windows.Forms.NumericUpDown
+    Friend WithEvents alarm As System.Windows.Forms.ComboBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 End Class

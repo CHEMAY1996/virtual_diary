@@ -32,3 +32,8 @@ C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diar
 C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\bin\Debug\S_O_T.exe
 C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\bin\Debug\S_O_T.pdb
 C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\bin\Debug\S_O_T.xml
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Timetable.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.project_or_homework.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.homeworkhome.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Enter_new_subject.resources
+C:\Users\avinash.chemay\Documents\Visual Studio 2010\Projects\S_O_T\Virtual diary\obj\x86\Debug\S_O_T.Form1.resources

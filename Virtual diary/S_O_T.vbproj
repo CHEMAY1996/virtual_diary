@@ -102,6 +102,30 @@
     <Compile Include="Enter New timer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homeworkhome.Designer.vb">
+      <DependentUpon>homeworkhome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homeworkhome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="project_or_homework.Designer.vb">
+      <DependentUpon>project_or_homework.vb</DependentUpon>
+    </Compile>
+    <Compile Include="project_or_homework.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timetable.Designer.vb">
+      <DependentUpon>Timetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Timetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Virtual Diary.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +164,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Enter New timer.resx">
       <DependentUpon>Enter New timer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homeworkhome.resx">
+      <DependentUpon>homeworkhome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="project_or_homework.resx">
+      <DependentUpon>project_or_homework.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timetable.resx">
+      <DependentUpon>Timetable.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Virtual Diary.resx">
       <DependentUpon>Virtual Diary.vb</DependentUpon>
